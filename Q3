@@ -1,0 +1,6 @@
+1-The client is the website im trying to access (google chrome) as it is the one sending the request 
+2-The server is google's web server as it is the server reciving the cleints request
+3-The end user is the one using the web service (me)
+
+1-The http method is (GET) as im trying to retrive data from the server (opening a web page)
+2-the http status code is 200 (showing that the response was sent sucessfully)
