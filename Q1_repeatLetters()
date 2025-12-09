@@ -21,3 +21,37 @@ function repeatletters(name,num)
 }
 
 //C++
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+
+string repeatletters (string name , int num);
+
+
+
+int main () {
+    cout<<repeatletters("ali",5);
+}
+
+
+
+string repeatletters (string name , int num )
+{
+   if (num<1)
+   {
+       cout<<"Error ! invalid number";
+       return "";
+   }
+    string answer;
+    for(char count : name){
+        
+        answer += string (num,count);
+        
+    }
+
+    return answer;
+}
+
