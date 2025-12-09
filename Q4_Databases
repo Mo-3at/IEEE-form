@@ -1,0 +1,5 @@
+SELECT name , city
+FROM table_name
+WHERE age>20
+
+//Iam retriving names and cities of users older than 20 from the table named (table_name)
