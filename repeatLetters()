@@ -1,0 +1,18 @@
+function repeatletters(name,num)
+{
+    if (num<1) {
+    console.log("Error: invalid num !");
+    return "";
+    }
+    if (typeof(name) !== "string")
+    {
+    console.log("Error: input a name !");   
+    return "";
+    }
+    let result = "";
+    for ( let ch of name )
+    {
+        result += ch.repeat(num);
+    }
+  return result;
+}
