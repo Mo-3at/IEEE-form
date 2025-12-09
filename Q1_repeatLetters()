@@ -1,3 +1,6 @@
+
+//java script
+
 function repeatletters(name,num)
 {
     if (num<1) {
@@ -16,3 +19,5 @@ function repeatletters(name,num)
     }
   return result;
 }
+
+//C++
